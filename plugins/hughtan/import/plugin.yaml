@@ -1,0 +1,10 @@
+plugin:
+    name: 'hughtan.import::lang.plugin.name'
+    description: 'hughtan.import::lang.plugin.description'
+    author: Hughtan
+    icon: oc-icon-upload
+    homepage: 'https://www.hughtan.nl'
+permissions:
+    import:
+        tab: import
+        label: 'Import'

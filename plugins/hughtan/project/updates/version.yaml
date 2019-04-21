@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hughtan_project_list'
+    - builder_table_create_hughtan_project_list.php
+1.0.3:
+    - 'Updated table hughtan_project_list'
+    - builder_table_update_hughtan_project_lists.php

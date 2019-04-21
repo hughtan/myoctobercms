@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: hughtan.blog::lang.blog.create_post
+form: ~/plugins/hughtan/blog/models/post/fields.yaml
+modelClass: Hughtan\Blog\Models\Post
+defaultRedirect: hughtan/blog/posts
+
+create:
+    redirect: hughtan/blog/posts/update/:id
+    redirectClose: hughtan/blog/posts
+
+update:
+    redirect: hughtan/blog/posts
+    redirectClose: hughtan/blog/posts

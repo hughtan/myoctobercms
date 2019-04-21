@@ -1,0 +1,13 @@
+fields:
+    id:
+        label: id
+        type: number
+    title:
+        label: title
+        type: text
+    summy:
+        label: summy
+        type: text
+    content:
+        label: content
+        type: text

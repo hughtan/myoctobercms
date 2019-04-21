@@ -1,0 +1,11 @@
+name: Projects
+modelClass: Hughtan\project\Models\ProjectList
+form: $/hughtan/project/models/projectlist/fields.yaml
+defaultRedirect: hughtan/project/projects
+create:
+    redirect: 'hughtan/project/projects/update/:id'
+    redirectClose: hughtan/project/projects
+update:
+    redirect: hughtan/project/projects
+    redirectClose: hughtan/project/projects
+preview: {  }

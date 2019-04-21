@@ -1,0 +1,16 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id: ID
+    title: hughtan.blog::lang.post.title
+    content: hughtan.blog::lang.post.content
+    excerpt: hughtan.blog::lang.post.excerpt
+    slug: hughtan.blog::lang.post.slug
+    categories: hughtan.blog::lang.post.categories
+    author_email: hughtan.blog::lang.post.author_email
+    created_at: hughtan.blog::lang.post.created_date
+    updated_at: hughtan.blog::lang.post.updated_date
+    published_at: hughtan.blog::lang.post.published_date

@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hughtan_video_posts'
+    - builder_table_create_hughtan_video_posts.php

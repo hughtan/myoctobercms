@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: hughtan.blog::lang.blog.create_category
+form: ~/plugins/hughtan/blog/models/category/fields.yaml
+modelClass: Hughtan\Blog\Models\Category
+defaultRedirect: hughtan/blog/categories
+
+create:
+    redirect: hughtan/blog/categories/update/:id
+    redirectClose: hughtan/blog/categories
+
+update:
+    redirect: hughtan/blog/categories
+    redirectClose: hughtan/blog/categories

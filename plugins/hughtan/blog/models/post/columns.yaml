@@ -1,0 +1,36 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    title:
+        label: hughtan.blog::lang.post.title
+        searchable: true
+
+    # author:
+    #   label: Author
+    #   relation: user
+    #   select: login
+    #   searchable: true
+
+    categories:
+        label: hughtan.blog::lang.post.categories
+        relation: categories
+        select: name
+        searchable: true
+        sortable: false
+
+    created_at:
+        label: hughtan.blog::lang.post.created
+        type: date
+        invisible: true
+
+    updated_at:
+        label: hughtan.blog::lang.post.updated
+        type: date
+        invisible: true
+
+    published_at:
+        label: hughtan.blog::lang.post.published
+        type: date

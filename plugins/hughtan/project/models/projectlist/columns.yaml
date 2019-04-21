@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'hughtan.project::lang.post.title'
+        type: text
+    summy:
+        label: 'hughtan.project::lang.post.summy'
+        type: text
+    icon:
+        label: 'hughtan.project::lang.post.icon'
+        type: text

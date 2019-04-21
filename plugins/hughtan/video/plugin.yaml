@@ -1,0 +1,6 @@
+plugin:
+    name: 'hughtan.video::lang.plugin.name'
+    description: 'hughtan.video::lang.plugin.description'
+    author: hughtan
+    icon: oc-icon-adjust
+    homepage: ''

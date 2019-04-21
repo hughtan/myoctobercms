@@ -1,0 +1,4 @@
+title: Projects
+modelClass: Hughtan\project\Models\ProjectList
+toolbar:
+    buttons: reorder_toolbar

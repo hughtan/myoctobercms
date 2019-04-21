@@ -1,0 +1,20 @@
+plugin:
+    name: 'hughtan.project::lang.plugin.name'
+    description: 'hughtan.project::lang.plugin.description'
+    author: hughtan
+    icon: oc-icon-inbox
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'hughtan.project::lang.plugin.name'
+        url: hughtan/project/projects
+        icon: icon-adn
+        sideMenu:
+            side-menu-item:
+                label: 列表
+                url: hughtan/project/projects
+                icon: icon-sitemap
+            side-menu-item2:
+                label: 添加
+                url: hughtan/project/projects/create
+                icon: icon-sitemap

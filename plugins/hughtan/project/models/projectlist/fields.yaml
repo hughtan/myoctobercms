@@ -1,0 +1,36 @@
+fields:
+    title:
+        label: 'hughtan.project::lang.post.title'
+        span: auto
+        required: 1
+        type: text
+    summy:
+        label: 'hughtan.project::lang.post.summy'
+        span: right
+        required: 1
+        type: text
+    icon:
+        label: 'hughtan.project::lang.post.icon'
+        span: left
+        required: 1
+        type: dropdown
+    file:
+        label: 'hughtan.project::lang.post.file'
+        mode: file
+        fileTypes: 'zip,arc'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: right
+        required: 1
+        type: fileupload
+    is_public:
+        label: 'hughtan.project::lang.post.is_public'
+        span: left
+        type: switch
+    content:
+        label: 'hughtan.project::lang.post.content'
+        size: large
+        span: left
+        type: richeditor

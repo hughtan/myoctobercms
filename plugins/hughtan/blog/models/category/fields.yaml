@@ -1,0 +1,23 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: hughtan.blog::lang.category.name
+        placeholder: hughtan.blog::lang.category.name_placeholder
+        span: left
+
+    slug:
+        label: hughtan.blog::lang.category.slug
+        span: right
+        placeholder: hughtan.blog::lang.category.slug_placeholder
+        preset: name
+
+    description:
+        label: 'hughtan.blog::lang.category.description'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
